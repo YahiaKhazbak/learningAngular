@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div></div>
+      <hr>
+      <button class="btn btn-primary"
+      (click)="onToogleBtn()"
+      >Display details</button>
+      <p *ngIf="makeVisible">Super important paragraph</p>
+      <!-- <p *ngFor="let item of allClicks"> {{item}} </p> -->
+      <p *ngFor="let item of allClicks, let ind = index"
+                [ngStyle] = "{ backgroundColor: ind>4 ? 'blue' : 'transparent' }"
+                [ngClass] = "{ white: ind>4 }"> {{item}} </p>
+      <ol>
+        <li>+ OK /Add A button which says 'Display Details'</li>
+        <li>+ OK /Add a paragraph with any content of your choice (e.g. 'Secret Password = tuna')</li>
+        <li>+ OK /Toggle the displaying of that paragraph with the button created in the first step</li>
+        <li>+ OK /Log all button clicks in an array and output that array below the secret paragraph (maybe log a timestamp or simply an incrementing number)</li>
+        <li>+ OK /Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</li>
+      </ol>
+    </div>
+  </div>
+</div>

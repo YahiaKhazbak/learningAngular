@@ -1,0 +1,17 @@
+# dependencies
+/assign1/node_modules
+/assign2/node_modules
+/assign3/node_modules
+/data-binding/node_modules
+/first/node_modules
+/second/node_modules
+/template/node_modules
+
+#tests
+/assign1/e2e
+/assign2/e2e
+/assign3/e2e
+/data-binding/e2e
+/first/e2e
+/second/e2e
+/template/e2e
