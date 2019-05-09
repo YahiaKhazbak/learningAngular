@@ -6,6 +6,8 @@
 /first/node_modules
 /second/node_modules
 /template/node_modules
+/recipes-project/node_modules
+
 
 #tests
 /assign1/e2e
@@ -15,3 +17,4 @@
 /first/e2e
 /second/e2e
 /template/e2e
+/recipes-project/e2e
