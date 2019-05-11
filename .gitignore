@@ -7,6 +7,7 @@
 /second/node_modules
 /template/node_modules
 /recipes-project/node_modules
+/data-binding-2/node_modules
 
 
 #tests
@@ -18,3 +19,4 @@
 /second/e2e
 /template/e2e
 /recipes-project/e2e
+/data-binding-2/e2e
