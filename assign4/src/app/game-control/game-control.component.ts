@@ -12,16 +12,25 @@ export class GameControlComponent implements OnInit {
   ngOnInit() {
   }
 
- // @Output() onStart = new EventEmitter();
-//  fireStartEvent() { this.onStart.emit() }
+  c = 0;
+  @Output() onStart = new EventEmitter();
 
   fireStartEvent() { 
-   // this.onStart.emit();
-    console.log('x');
-    // setInterval(function() {
-    //   this.onStart.emit();
-    //   console.log('x');
-    // }, 1000)
+    /* why c is readable but onStart is undefined? 
+       they share the same scope... 
+       
+    setInterval(function() {
+      this.c = this.c+1;
+      this.onStart.emit(this.c);
+      console.log(this.c)
+    }, 1000)
+    */
+    setInterval( () => {
+      this.c = this.c+1;
+      this.onStart.emit(this.c);
+      console.log(this.c)
+    }, 4000)
+
   }
 
 
