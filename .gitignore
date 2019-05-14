@@ -2,6 +2,7 @@
 /assign1/node_modules
 /assign2/node_modules
 /assign3/node_modules
+/assign4/node_modules
 /data-binding/node_modules
 /first/node_modules
 /second/node_modules
@@ -20,3 +21,4 @@
 /template/e2e
 /recipes-project/e2e
 /data-binding-2/e2e
+/assign4/e2e
