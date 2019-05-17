@@ -9,7 +9,6 @@ export class AppComponent {
 
   evenEvents = [];
   oddEvents = [];
-  public nextNumber: number;
 
   displayEvent(e: number) {
     e % 2 === 0 ? this.evenEvents.push(e) : this.oddEvents.push(e);
