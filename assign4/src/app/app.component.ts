@@ -7,10 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  allEvents = [];
+  evenEvents = [];
+  oddEvents = [];
   public nextNumber: number;
 
   displayEvent(e: number) {
-    this.nextNumber = e;
+    e % 2 === 0 ? this.evenEvents.push(e) : this.oddEvents.push(e);
   };
 }
