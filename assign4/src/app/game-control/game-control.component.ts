@@ -14,14 +14,14 @@ export class GameControlComponent implements OnInit {
 
 timer = null;
 c = 0;
-@Output() onStart = new EventEmitter();
+@Output() onStart = new EventEmitter<number>();
 
 fireStart() {
   this.fireStop();
   this.timer = setInterval(() => { 
     this.c++;
     this.onStart.emit(this.c);
-    console.log(this.c);
+    //console.log(this.c);
   }, 1000);
 }
 
