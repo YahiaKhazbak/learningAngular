@@ -1,5 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, 
+  OnInit, 
+  Input, 
+  ViewChild, 
+  ElementRef, 
+  Output, 
+  EventEmitter } from '@angular/core';
 import { Recipe } from '../recipe.model';
+import { Ingredient } from 'src/app/shared/ingredient.model';
 
 @Component({
   selector: 'app-recipe-detail',
@@ -13,5 +20,4 @@ export class RecipeDetailComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
