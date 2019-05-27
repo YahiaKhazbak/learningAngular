@@ -9,7 +9,7 @@
 /template/node_modules
 /recipes-project/node_modules
 /data-binding-2/node_modules
-
+/services/node_modules
 
 #tests
 /assign1/e2e
@@ -22,3 +22,4 @@
 /recipes-project/e2e
 /data-binding-2/e2e
 /assign4/e2e
+/services/e2e
