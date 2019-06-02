@@ -4,6 +4,7 @@
 /assign3/node_modules
 /assign4/node_modules
 /assign5/node_modules
+/assign5a/node_modules
 /data-binding/node_modules
 /first/node_modules
 /second/node_modules
@@ -18,6 +19,7 @@
 /assign3/e2e
 /assign4/e2e
 /assign5/e2e
+/assign5a/e2e
 /data-binding/e2e
 /first/e2e
 /second/e2e
